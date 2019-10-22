@@ -64,6 +64,8 @@
         </style>
     </head>
     <body>
+    <a href="{{route('about.index')}}">About</a>
+    <a href="{{route('news.index')}}">News</a>
         <div class="flex-center position-ref full-height">
             @if (Route::has('login'))
                 <div class="top-right links">
